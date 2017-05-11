@@ -1,0 +1,19 @@
+{
+  "name": "remote-adb-shell",
+  "version": "1.0.0",
+  "description": "Remote access adb shell (android debug bridge) client/server",
+  "main": "index.js",
+  "bin": {
+    "remote-adb-shell": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marius Gripsgard <me@mariogrip.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "sockjs": "^0.3.18",
+    "sockjs-client": "^1.1.4"
+  }
+}
